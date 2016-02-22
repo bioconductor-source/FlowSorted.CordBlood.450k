@@ -1,0 +1,18 @@
+Package: FlowSorted.CordBlood.450k
+Type: Package
+Title: Illumina 450k data on sorted cord blood cells
+Version: 0.99.1
+Date: 2016-01-21
+Authors@R: c(person(c("Shan", "V."), "Andrews", role = c("cre", "aut"),
+        email = "sandre17@jhu.edu"), person(c("Kelly", "M."),
+        "Bakulski", role = "aut"))
+Maintainer: Shan V. Andrews <sandre17@jhu.edu>
+Description: Raw data objects to be used for cord blood cell proportion
+        estimation in minfi.
+License: Artistic-2.0
+Depends: R (>= 3.2.0), minfi (>= 1.15.0)
+LazyData: yes
+biocViews: ExperimentData, Homo_sapiens_Data, MethylationArrayData,
+        MicroarrayData
+NeedsCompilation: no
+Author: Shan V. Andrews [cre, aut], Kelly M. Bakulski [aut]
