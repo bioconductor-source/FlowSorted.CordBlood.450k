@@ -48,24 +48,25 @@ reference data will be loaded.
 These data are derived from 17 cord blood samples from a prospective study based in the Johns
 Hopkins Hospital. For more details on these samples, as well as the pipeline
 used to estimate cord blood cell type proportions, please see Bakulski et al. (2016). 
-Raw 450k measurements on sorted cell populations are contained in an RGset. 
+Raw 450k measurements on sorted cell populations are contained in an RGChannelSet. 
 
 \section{Tables}
 
-In addition the the RGset, this package contains two additional tables. The first contains F statistics
-for each probe that survived several probe QC steps (detailed in Bakulski et al. (2016)) demonstrating
-the extent to which methylation at that CpG site is associated with cell type. Users may seek to
-compare any sites of interest in an association study with this list to evaluate the potential
-for confounding by cell composition. The second table contains the 700 probes (100 for each cell type)
-that were selected to differentiate cell types. While these 700 probes were selected based on 
-the reference RGset contained herein, in the implementation of the \Rcode{estimateCellCounts} function
-probes are selected based on a combined RGset of user and reference data. Please see Bakulski 
-et al. (2016) for details on the probe selection process. 
+In addition to the RGChannelSet, this package contains two additional tables. The first contains F
+statistics for each probe that survived several probe QC steps (detailed in Bakulski et al. (2016))
+demonstrating the extent to which methylation at that CpG site is associated with cell type. Users
+may seek to compare any sites of interest in an association study with this list to evaluate the
+potential for confounding by cell composition. The second table contains the 700 probes (100 for
+each cell type) that were selected to differentiate cell types. While these 700 probes were selected
+based on the reference RGChannelSet contained herein, in the implementation of the
+\Rcode{estimateCellCounts} function probes are selected based on a combined RGChannelSet of user and
+reference data. Please see Bakulski et al. (2016) for details on the probe selection process.
 
 \section{References}
 
 Bakulski KM, Feinberg JI, Yang J, Brown S, Andrews SV, McKenney S, Witter F, Walston J, Feinberg AP, Fallin MD. 
 \emph{DNA methylation of cord blood cell types: Applications for mixed cell birth studies.}
-Manuscript in review.
+Epigenetics (2016), 11:354--362.  DOI:
+\href{10.1080/15592294.2016.1161875}{http://dx.doi.org/10.1080/15592294.2016.1161875} 
 
 \end{document}
