@@ -1,7 +1,7 @@
 Package: FlowSorted.CordBlood.450k
 Type: Package
 Title: Illumina 450k data on sorted cord blood cells
-Version: 1.27.0
+Version: 1.28.0
 Authors@R: c(person(c("Shan", "V."), "Andrews", role = c("cre", "aut"),
         email = "sandre17@jhu.edu"), person(c("Kelly", "M."),
         "Bakulski", role = "aut"))
